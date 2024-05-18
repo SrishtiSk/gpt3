@@ -1,4 +1,5 @@
 import React from 'react'
+import './App.css';
 
 import { Aticle, Brand, CTA, Feature, Navbar } from './components';
 import { Blog, Features, Footer, Header, Possibility, WhatGPT3 } from './container';
@@ -13,6 +14,7 @@ return (
       <Header />
     </div>
     <Brand />
+    <WhatGPT3 />
     <Features />
     <Possibility />
     <CTA />
